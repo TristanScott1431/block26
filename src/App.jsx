@@ -1,13 +1,15 @@
 import './App.css'
+import React from "react"
+import ContactList from "./components/ContactList"
 
-function App() {
+export default function App() {
   
 
   return (
     <>
-      
+      <ContactList />
     </>
   )
 }
 
-export default App
+
